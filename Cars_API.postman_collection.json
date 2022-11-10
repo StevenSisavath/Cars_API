@@ -125,8 +125,25 @@
 		{
 			"name": "Delete_Car",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/cars/4/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"cars",
+						"4",
+						""
+					]
+				}
 			},
 			"response": []
 		}
